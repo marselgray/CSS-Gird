@@ -11,8 +11,12 @@ h1 {
     font-weight: 900;
 }
 
-h2, p {
+h2 {
     text-align: center
+}
+
+.break {
+    margin: 10px;
 }
 
 .container1 {
@@ -25,5 +29,36 @@ h2, p {
     padding: 1em;
 }
 .container1 > div:nth-child(odd){
+    background-color: #536F87
+} 
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.container2 > div{
+    background-color: #85A1B7;
+    padding: 1em;
+}
+.container2 > div:nth-child(odd){
+    background-color: #536F87
+} 
+
+
+
+.container3 {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+.container3 > div{
+    background-color: #85A1B7;
+    padding: 1em;
+}
+.container3 > div:nth-child(odd){
     background-color: #536F87
 } 
