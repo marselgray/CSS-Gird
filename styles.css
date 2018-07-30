@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lora', serif;
+    background-color: #375169;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h2, p {
+    text-align: center
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.container1 > div{
+    background-color: #85A1B7;
+    padding: 1em;
+}
+.container1 > div:nth-child(odd){
+    background-color: #536F87
+} 
